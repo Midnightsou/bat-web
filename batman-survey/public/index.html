@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Batman Survey</h1>
+        <form id="batman-survey-form">
+            <label for="name">What is your name?</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="favorite-character">Who is your favorite Batman character?</label>
+            <input type="text" id="favorite-character" name="favorite-character" required>
+
+            <label for="batman-movie">What is your favorite Batman movie?</label>
+            <input type="text" id="batman-movie" name="batman-movie" required>
+
+            <label for="rating">Rate your love for Batman (1-10):</label>
+            <input type="number" id="rating" name="rating" min="1" max="10" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="response-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
