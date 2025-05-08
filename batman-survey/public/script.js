@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const surveyForm = document.getElementById('survey-form');
+    const surveyForm = document.getElementById('batman-survey-form');
     
     surveyForm.addEventListener('submit', function(event) {
         event.preventDefault();
